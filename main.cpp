@@ -1,8 +1,13 @@
-// writing a program to display hello world to the user
+// program which ask the user to entered his/her favourite number
+// then displays a msg that it is user's favourite number too
 
 #include <iostream>
 int main(void)
+
 {
-    std::cout << "Hello World!" << std::endl;
+    int fav_number;
+    std::cout << "enter your favourite number : " << std::endl;
+    std::cin >> fav_number;
+    std:: cout << "this is amazing, that's my favourite number too." << std::endl;
     return 0;
 }
